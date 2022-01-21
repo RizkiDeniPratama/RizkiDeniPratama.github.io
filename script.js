@@ -276,8 +276,8 @@ const dzikir = {
   ],
 };
 (function dataHtml(params) {
-  let pagi = document.querySelector("div.isi#pagi");
-  let petang = document.querySelector("div.isi#petang");
+  let pagi = document.querySelector("#pagi");
+  let petang = document.querySelector("#petang");
 
   dzikir.pagi.forEach((el) => {
     const { lafadz, artinya } = el;
