@@ -20,6 +20,12 @@ header#top-header {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+section#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
 header > nav > ul {
   display: flex;
   flex-direction: row;
