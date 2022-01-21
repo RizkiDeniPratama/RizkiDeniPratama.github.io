@@ -117,3 +117,7 @@ nav.top-nav ul li a:hover {
 ul.header-nav {
   padding-right: 50px;
 }
+
+section {
+  border-bottom: 1px solid #ededed;
+}
