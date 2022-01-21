@@ -117,3 +117,11 @@ nav.top-nav ul li a:hover {
 ul.header-nav {
   padding-right: 50px;
 }
+#artikelpetang {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  border-radius: 10px;
+}

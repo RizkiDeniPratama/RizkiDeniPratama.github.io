@@ -276,15 +276,15 @@ const dzikir = {
   ],
 };
 (function dataHtml(params) {
-  let pagi = document.getElementById("isipagi");
-  let petang = document.getElementById("isipetang");
+  let pagi = document.querySelector("#artikelpagi");
+  let petang = document.querySelector("#artikelpetang");
 
   dzikir.pagi.forEach((el) => {
     const { lafadz, artinya } = el;
 
     const wrapper = document.createElement("div");
 
-    wrapper.innerHTML = `\n<span style="color: red;">${lafadz}</span>
+    wrapper.innerHTML = `\n<span style="color: red;  text-align: right;">${lafadz}</span>
     <br/>
     <span>${artinya}</span>
     <br/>\n`;
